@@ -37,7 +37,6 @@ id fragment_container
 id layout_model_container
 id main_layout
 id nav_view
-id navigation_chat
 id navigation_dashboard
 id navigation_settings
 id progress_bar

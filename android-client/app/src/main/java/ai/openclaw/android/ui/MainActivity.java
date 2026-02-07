@@ -11,14 +11,12 @@ import androidx.fragment.app.FragmentManager;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 import ai.openclaw.android.R;
-import ai.openclaw.android.ui.chat.ChatFragment;
 import ai.openclaw.android.ui.dashboard.DashboardFragment;
 import ai.openclaw.android.ui.settings.SettingsFragment;
 
 public class MainActivity extends AppCompatActivity {
 
     private final Fragment mDashboardFragment = new DashboardFragment();
-    private final Fragment mChatFragment = new ChatFragment();
     private final Fragment mSettingsFragment = new SettingsFragment();
     private final FragmentManager fm = getSupportFragmentManager();
     private Fragment active = mDashboardFragment;
@@ -33,8 +31,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         if (savedInstanceState == null) {
-            fm.beginTransaction().add(R.id.fragment_container, mSettingsFragment, "3").hide(mSettingsFragment).commit();
-            fm.beginTransaction().add(R.id.fragment_container, mChatFragment, "2").hide(mChatFragment).commit();
+            fm.beginTransaction().add(R.id.fragment_container, mSettingsFragment, "2").hide(mSettingsFragment).commit();
             fm.beginTransaction().add(R.id.fragment_container, mDashboardFragment, "1").commit();
         }
 
@@ -47,10 +44,6 @@ public class MainActivity extends AppCompatActivity {
                 if (id == R.id.navigation_dashboard) {
                     fm.beginTransaction().hide(active).show(mDashboardFragment).commit();
                     active = mDashboardFragment;
-                    return true;
-                } else if (id == R.id.navigation_chat) {
-                    fm.beginTransaction().hide(active).show(mChatFragment).commit();
-                    active = mChatFragment;
                     return true;
                 } else if (id == R.id.navigation_settings) {
                     fm.beginTransaction().hide(active).show(mSettingsFragment).commit();

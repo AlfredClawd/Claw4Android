@@ -3406,7 +3406,6 @@ id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
-id navigation_chat
 id navigation_dashboard
 id navigation_header_container
 id navigation_settings
