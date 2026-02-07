@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "ai.openclaw.android.app-mergeDebugResources-3:/layout/item_message.xml",
+        "source": "ai.openclaw.android.app-main-6:/layout/item_message.xml"
+    },
+    {
+        "merged": "ai.openclaw.android.app-mergeDebugResources-3:/layout/fragment_settings.xml",
+        "source": "ai.openclaw.android.app-main-6:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "ai.openclaw.android.app-mergeDebugResources-3:/layout/fragment_dashboard.xml",
+        "source": "ai.openclaw.android.app-main-6:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "ai.openclaw.android.app-mergeDebugResources-3:/layout/fragment_chat.xml",
+        "source": "ai.openclaw.android.app-main-6:/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "ai.openclaw.android.app-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "ai.openclaw.android.app-main-6:/layout/activity_main.xml"
+    }
+]

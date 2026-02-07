@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenClaw</string>
+
+    <!-- Navigation -->
+    <string name="title_chat">Chat</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- Chat -->
+    <string name="hint_message">Type a message…</string>
+    <string name="send_message">Send message</string>
+    <string name="error_empty_message">Message cannot be empty</string>
+    <string name="error_connection">Connection error: %1$s</string>
+    <string name="error_unknown">Unknown error occurred</string>
+    <string name="error_server">Server error: %1$d</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="gateway_url">Gateway URL</string>
+    <string name="gateway_url_hint">The URL of your OpenClaw Gateway</string>
+    <string name="gateway_url_placeholder">https://gateway.example.com</string>
+    <string name="auth_token">Authentication Token</string>
+    <string name="auth_token_hint">Your personal access token</string>
+    <string name="auth_token_placeholder">Enter your token</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="test_connection">Test Connection</string>
+    <string name="settings_saved">Settings saved successfully</string>
+    <string name="settings_error_url">Please enter a valid URL</string>
+    <string name="connection_success">Connection successful!</string>
+    <string name="connection_failed">Connection failed: %1$s</string>
+
+    <!-- Messages -->
+    <string name="message_user">You</string>
+    <string name="message_bot">OpenClaw</string>
+    <string name="message_loading">Thinking…</string>
+    <string name="retry">Retry</string>
+    <string name="dismiss">Dismiss</string>
+</resources>

@@ -1,0 +1,169 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ai.openclaw.android"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:6:5-77
+12-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:6:22-74
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+13-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:7:5-89
+13-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:7:22-86
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:8:5-77
+14-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:8:22-74
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:9:5-79
+15-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:9:22-76
+16
+17    <permission
+17-->[androidx.core:core:1.9.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/f65063174c70bf10d12ad40d33200895/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+18        android:name="ai.openclaw.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/f65063174c70bf10d12ad40d33200895/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/f65063174c70bf10d12ad40d33200895/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="ai.openclaw.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.9.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/f65063174c70bf10d12ad40d33200895/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/f65063174c70bf10d12ad40d33200895/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:11:5-43:19
+24        android:name="ai.openclaw.android.OpenClawApp"
+24-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:12:9-36
+25        android:allowBackup="true"
+25-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:13:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.9.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/f65063174c70bf10d12ad40d33200895/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+27        android:dataExtractionRules="@xml/data_extraction_rules"
+27-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:14:9-65
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:fullBackupContent="@xml/backup_rules"
+30-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:15:9-54
+31        android:icon="@mipmap/ic_launcher"
+31-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:16:9-43
+32        android:label="@string/app_name"
+32-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:18:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:17:9-54
+34        android:supportsRtl="true"
+34-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:19:9-35
+35        android:theme="@style/Theme.OpenClawAndroid"
+35-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:20:9-53
+36        android:usesCleartextTraffic="true" >
+36-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:21:9-44
+37        <activity
+37-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:24:9-32:20
+38            android:name="ai.openclaw.android.ui.MainActivity"
+38-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:25:13-44
+39            android:exported="true"
+39-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:26:13-36
+40            android:windowSoftInputMode="adjustResize" >
+40-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:27:13-55
+41            <intent-filter>
+41-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:28:13-31:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:29:17-69
+42-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:29:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:30:17-77
+44-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:30:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <service
+48-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:34:9-41:19
+49            android:name="ai.openclaw.android.service.QuotaMonitorService"
+49-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:35:13-56
+50            android:enabled="true"
+50-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:36:13-35
+51            android:exported="false"
+51-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:37:13-37
+52            android:foregroundServiceType="specialUse" >
+52-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:38:13-55
+53            <property
+53-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:39:13-40:93
+54                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+54-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:39:23-82
+55                android:value="Monitoring AI model quotas and system status in real-time" />
+55-->/home/clawd/.openclaw/workspace/android-client/app/src/main/AndroidManifest.xml:40:17-90
+56        </service>
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.2.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/b9b7a61c38234bd654c38de0a57a421f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.2.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/b9b7a61c38234bd654c38de0a57a421f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+60            android:authorities="ai.openclaw.android.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.2.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/b9b7a61c38234bd654c38de0a57a421f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.2.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/b9b7a61c38234bd654c38de0a57a421f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.2.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/b9b7a61c38234bd654c38de0a57a421f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.2.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/b9b7a61c38234bd654c38de0a57a421f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.2.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/b9b7a61c38234bd654c38de0a57a421f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.6.1] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/81a1d8aeccd197607e76d5768aaabdb1/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.6.1] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/81a1d8aeccd197607e76d5768aaabdb1/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.6.1] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/81a1d8aeccd197607e76d5768aaabdb1/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+70                android:value="androidx.startup" />
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+71        </provider>
+72
+73        <receiver
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+74            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+75            android:directBootAware="false"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+76            android:enabled="true"
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+77            android:exported="true"
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+78            android:permission="android.permission.DUMP" >
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+79            <intent-filter>
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+80                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+81            </intent-filter>
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+83                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+86                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+89                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /mnt/data/home/clawd/.gradle/caches/8.10.2/transforms/011b005c859697c9c8bb926aec4c376a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+90            </intent-filter>
+91        </receiver>
+92    </application>
+93
+94</manifest>

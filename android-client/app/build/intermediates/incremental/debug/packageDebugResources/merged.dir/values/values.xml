@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="claw_dark">#121212</color>
+    <color name="claw_red">#E53935</color>
+    <color name="gray_light">#FFF0F0F0</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="on_primary_container">#FFFFFFFF</color>
+    <color name="on_surface">#FFE0E0E0</color>
+    <color name="on_surface_variant">#FFB0B0B0</color>
+    <color name="outline">#FF494949</color>
+    <color name="primary">#E53935</color>
+    <color name="primary_container">#E53935</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="surface">#FF121212</color>
+    <color name="surface_variant">#FF2D2D2D</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">OpenClaw</string>
+    <string name="auth_token">Authentication Token</string>
+    <string name="auth_token_hint">Your personal access token</string>
+    <string name="auth_token_placeholder">Enter your token</string>
+    <string name="connection_failed">Connection failed: %1$s</string>
+    <string name="connection_success">Connection successful!</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="error_connection">Connection error: %1$s</string>
+    <string name="error_empty_message">Message cannot be empty</string>
+    <string name="error_server">Server error: %1$d</string>
+    <string name="error_unknown">Unknown error occurred</string>
+    <string name="gateway_url">Gateway URL</string>
+    <string name="gateway_url_hint">The URL of your OpenClaw Gateway</string>
+    <string name="gateway_url_placeholder">https://gateway.example.com</string>
+    <string name="hint_message">Type a message…</string>
+    <string name="message_bot">OpenClaw</string>
+    <string name="message_loading">Thinking…</string>
+    <string name="message_user">You</string>
+    <string name="retry">Retry</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="send_message">Send message</string>
+    <string name="settings_error_url">Please enter a valid URL</string>
+    <string name="settings_saved">Settings saved successfully</string>
+    <string name="settings_title">Settings</string>
+    <string name="test_connection">Test Connection</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_settings">Settings</string>
+    <style name="Theme.OpenClawAndroid" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/claw_red</item>
+        <item name="colorPrimaryVariant">@color/claw_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>
