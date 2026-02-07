@@ -13,7 +13,10 @@ public class QuotaResponse {
     private long totalTokens;
     @SerializedName("updated_at_ms")
     private long updatedAtMs;
+    @SerializedName("reset_time")
+    private String resetTime;
 
     public float getPercentUsed() { return percentUsed; }
     public long getRemainingTokens() { return remainingTokens; }
+    public String getResetTime() { return resetTime != null ? resetTime : "N/A"; }
 }

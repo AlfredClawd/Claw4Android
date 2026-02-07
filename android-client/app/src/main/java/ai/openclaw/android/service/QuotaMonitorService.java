@@ -44,7 +44,7 @@ public class QuotaMonitorService extends Service {
             public void onResponse(Call<QuotaResponse> call, Response<QuotaResponse> response) {
                 if (response.isSuccessful() && response.body() != null) {
                     QuotaResponse q = response.body();
-                    String text = "Gemini 3 Flash: " + q.getPercentUsed() + "% | Frei: " + (q.getRemainingTokens()/1000) + "k";
+                    String text = "Flash: " + q.getPercentUsed() + "% | Frei: " + (q.getRemainingTokens()/1000) + "k | Reset: " + q.getResetTime();
                     updateNotification(text);
                 }
             }
