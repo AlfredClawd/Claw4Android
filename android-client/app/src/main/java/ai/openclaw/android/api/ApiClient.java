@@ -102,8 +102,8 @@ public class ApiClient {
 
         apiService = retrofit.create(OpenClawApi.class);
 
-        // Build LostManager client (assumes port 8070 on same host)
-        String lmBaseUrl = baseUrl.replaceAll(":[0-9]+", ":8070");
+        // Build LostManager client (assumes port 8071 on same host for Quota/Status)
+        String lmBaseUrl = baseUrl.replaceAll(":[0-9]+", ":8071");
         lostManagerRetrofit = new Retrofit.Builder()
                 .baseUrl(lmBaseUrl.endsWith("/") ? lmBaseUrl : lmBaseUrl + "/")
                 .client(client)

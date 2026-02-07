@@ -39,7 +39,7 @@ public class QuotaMonitorService extends Service {
     }
 
     private void fetchQuota() {
-        ApiClient.getService().getQuota().enqueue(new Callback<QuotaResponse>() {
+        ApiClient.getLostManagerService().getQuota().enqueue(new Callback<QuotaResponse>() {
             @Override
             public void onResponse(Call<QuotaResponse> call, Response<QuotaResponse> response) {
                 if (response.isSuccessful() && response.body() != null) {

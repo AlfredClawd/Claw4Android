@@ -17,7 +17,7 @@ public interface OpenClawApi {
     @GET("/api/status")
     Call<StatusResponse> getSystemStatus();
 
-    @GET("http://100.119.81.5:8071/api/v1/quota")
+    @GET("/api/v1/quota")
     Call<QuotaResponse> getQuota();
 
     @POST("/v1/responses")
